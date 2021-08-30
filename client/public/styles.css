@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1rem;
+}
+img {
+  max-width: 100px;
+}
+
+input {
+  min-height: 30px;
+}
+
+textarea {
+  min-height: 70px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.resume > div {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.email-form {
+  display: flex;
+  flex-direction: column;
+  background-color: slategray;
+  border-radius: 5px;
+  padding: 8vw;
+}
+
+.email-form > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.email-form > div > label {
+  text-align: left;
+}

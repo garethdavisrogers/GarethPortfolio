@@ -21,7 +21,10 @@ module.exports = {
         test: /\.(png|jpe?g|gif)$/i,
         use: [{ loader: "file-loader" }],
       },
-      { test: /\.(mp3|wav|mpe?g|ogg)?$/i, use: [{ loader: "file-loader" }] },
+      {
+        test: /\.(mp3|wav|mpe?g|ogg)?$/i,
+        use: [{ loader: "file-loader" }],
+      },
     ],
   },
   resolve: {
