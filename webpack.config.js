@@ -25,6 +25,7 @@ module.exports = {
         test: /\.(mp3|wav|mpe?g|ogg)?$/i,
         use: [{ loader: "file-loader" }],
       },
+      { test: /\.css$/, use: ["style-loader", "css-loader"] },
     ],
   },
   resolve: {

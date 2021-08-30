@@ -6,8 +6,15 @@ body {
   font-family: "Roboto Mono", monospace;
   font-size: 1rem;
 }
-img {
+img,
+.icon {
   max-width: 100px;
+  transition: all 0.2s ease-in-out;
+}
+
+img:hover {
+  z-index: 1;
+  transform: scale(1.2);
 }
 
 input {
@@ -18,6 +25,10 @@ textarea {
   min-height: 70px;
 }
 
+.page > div {
+  margin: 5vh 5vw;
+}
+
 .intro {
   display: flex;
   flex-direction: column;
@@ -25,10 +36,34 @@ textarea {
   text-align: center;
 }
 
+.contact-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bio {
+  background-color: springgreen;
+  padding: 10vw 14vh;
+}
+
+.interests {
+  background-color: aqua;
+  padding: 10vw 14vh;
+}
+
+.resume {
+  background-color: slateblue;
+  padding: 2vw 2vh;
+}
 .resume > div {
   display: flex;
   flex-direction: column;
   text-align: left;
+}
+
+.accomplishments {
+  background-color: gold;
+  padding: 10vh 1vw;
 }
 
 .email {

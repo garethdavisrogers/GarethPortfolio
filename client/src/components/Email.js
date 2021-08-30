@@ -31,7 +31,7 @@ export default function Email(props) {
         "user_hFbYHPUFkNLYtl302s9yM"
       )
       .then(() => {
-        toast(
+        toast.info(
           "Thank you for your message!  I will try to get back to you as soon as possible."
         );
       })
@@ -65,7 +65,7 @@ export default function Email(props) {
           <textarea type="text" {...bindBody} />
         </div>
         <input type="submit" value="submit" />
-        <ToastContainer limit={1} />
+        <ToastContainer position="bottom-center" limit={1} />
       </form>
     </div>
   );
