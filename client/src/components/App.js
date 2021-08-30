@@ -69,7 +69,7 @@ const App = (props) => {
         <h2>
           <u>Accomplishments</u>
         </h2>
-        <ul>
+        <ul className="accomplishment-list">
           <li>Army Commendation Medal Receipient</li>
           <li>Hack Reactor / Galvanize Graduate</li>
           <li>2 Studio Albums</li>

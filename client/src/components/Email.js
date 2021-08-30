@@ -65,7 +65,6 @@ export default function Email(props) {
           <textarea type="text" {...bindBody} />
         </div>
         <input type="submit" value="submit" />
-        <ToastContainer position="bottom-center" limit={1} />
       </form>
     </div>
   );

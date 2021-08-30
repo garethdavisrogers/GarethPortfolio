@@ -65,12 +65,23 @@ textarea {
   background-color: gold;
   padding: 10vh 1vw;
 }
+.accomplishment-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.accomplishment-list > li {
+  max-width: 40vw;
+}
 
 .email {
   display: flex;
   flex-direction: column;
   justify-content: center;
   font-size: 1.5rem;
+  background-color: slategrey;
 }
 
 .email-form {
@@ -88,4 +99,19 @@ textarea {
 }
 .email-form > div > label {
   text-align: left;
+}
+
+@media only screen and (min-width: 800px) {
+  body {
+    font-size: 2rem;
+  }
+  .page > div {
+    border-radius: 6px;
+  }
+  .icon {
+    transform: scale(2);
+  }
+  .resume {
+    padding: 5vw;
+  }
 }
