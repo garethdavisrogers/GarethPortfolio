@@ -8,6 +8,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const App = (props) => {
+  const styleObj = {};
   return (
     <div className="page">
       <ToastContainer position="bottom-center" limit={1} />
@@ -37,10 +38,11 @@ const App = (props) => {
       <div className="tech-stack">
         <h2>
           <u>Programming Languages / Technologies Used</u>
+          <p className="subtle">Click Icons for Nomenclature</p>
         </h2>
         <TechStack />
       </div>
-      <div className="bio">
+      <div className="bio luminous">
         <h2>
           <u>Bio</u>
         </h2>
@@ -48,17 +50,19 @@ const App = (props) => {
         Node/Express servers, and PostgreSQL databases (PERN stack) though I am
         proficient in a wide range of programming languages and modules.
       </div>
-      <div className="interests">
+      <div className="interests luminous">
         <h2>
           <u>Personal Interests</u>
         </h2>
-        Music composition, Exercise, Anime, and Muay Thai. Fun fact: From 2017
-        to 2019 I was attempting to play music professionally before becoming
-        more serious about programming professionally. Here's a link to some of
-        my music if you're interested...
+        <div>
+          Music composition, Exercise, Anime, and Muay Thai. Fun fact: From 2017
+          to 2019 I was attempting to play music professionally before becoming
+          more serious about programming professionally. Here's a link to some
+          of my music if you're interested...
+        </div>
         <a href="https://soundcloud.com/grogers6">Let's see it.</a>
       </div>
-      <div className="resume">
+      <div className="resume luminous">
         <h2>
           <u>Résumé</u>
         </h2>

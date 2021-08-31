@@ -64,7 +64,7 @@ export default function Email(props) {
           <label>Body</label>
           <textarea type="text" {...bindBody} />
         </div>
-        <input type="submit" value="submit" />
+        <input type="submit" value="Submit" className="submit" />
       </form>
     </div>
   );
